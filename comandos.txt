@@ -1,0 +1,51 @@
+
+ Mkdir cria se pastas
+ touch  arquivo.txt cria arquivos na linha de comando
+
+ comandos do git
+
+ git init inicia um repositório
+
+ git --global.user "Everton Rosa"
+ git --global.email everton_330@hotmail.com
+ git add . = envia todos arquivos a stage area
+ git status = verifica a situação atual dos arquivos
+ git commit -m "comentário" envia o arquivo pro servidor
+ git diff  = verifica todas últimas mudanças feitas no arquivo 
+ git diff --staged = verifica as mudanças feitas em arquivos na stage area
+
+ git log ou git log -p = log de todos os commits feitos, inclue numero de serie para possivel retorno das versões.
+ git log -p  -1 = informa o numero de resultados na tela no caso 1
+ gitk = abre interface gráfica dos relatórios
+
+ git log --pretty=oneline
+ git rm arquivo.txt   remove arquivos apagados 
+ git tag -d v0.0 nome da taga a ser removida
+
+ git branch teste // cria a versão paralela do sistema
+ git checkout teste // para entrar
+ git branch -d teste // remove a branch de teste
+
+ssh-keygen   //gera chave para acesso ao site git
+
+git clone nome do ssh ou http de seu repositório
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
